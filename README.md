@@ -3,8 +3,8 @@ Title: Portfolio Web Application \
 Developer: Zackery Arsement \
 Deployment Date:  12/21/2021 \
 For:  UT JavaScript Coding Bootcamp \
-Published: GitHub <https://zackeryarsement.github.io/secondHomework/> \
-Built with: HTML5, CSS3
+Published: GitHub <https://zackeryarsement.github.io/webPortfolio/> \
+Built with: HTML5, CSS3, JavaScript
 
 
 # Summary: 
