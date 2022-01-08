@@ -23,6 +23,8 @@ The color theme and style of the portfolio is heavily influenced by my backgroun
 
 This portfolio is meant to serve as a base of my final portfolio, only having the minimal functionalities a web portfolio should have. There is a navbar on the top of the webpage that contains my name and links to the four major sections of my page: About Me Description, Projects Completed, Future Goals and Outlook, and Contact Information.
 
+# References
 
-
+Hexagon Icons
+![Hexagon Icons](https://jtauber.github.io/articles/css-hexagon.html)
 
