@@ -2,16 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Web Application}</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zackery Arsement Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/z-red-icon.png" />
+    <!-- Z icon was downloaded from: https://icons8.com/icons/set/letter-z -->
 </head>
 
 <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="#">Zackery Arsement</a>
+    <a class="navbar-brand" href="#">
+        <img id='avatar-img' src="./assets/images/LinkedIn.jpg" width="50" height="50" alt="">
+        Zackery Arsement
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -35,8 +41,7 @@
 
 <body>
 
-    <div  class="self-intoduction">
-        <!-- About Me Section -->
+    <!-- <div  class="self-intoduction">
         <br id="about-me">
         <br>
         <br>
@@ -54,6 +59,13 @@
                 </p>
             </div>
         </div>
+    </div> -->
+
+    <div class="jumbotron jumbotron-fluid" id='about-me'>
+        <div class="container w-100" id='about-me-body'>
+            <h1 class="display-4">About Me</h1>
+            <p class='text-center bg-secondary rounded p-1'>My name is Zackery Arsement and I am a recent graduate from the University of Texas at Austin, where I received a bachelors degree in mechanical engineering. After graduation I worked on video game designing and programming for 6 months using C# in the Unity Game Engine. I then got a job at a chemical plant in the Beaumont, Texas area. After working at the plant for 6 months I realized that the oil and gas industry was not for me and I wanted to switch back into software and code for a living. I am now working full time on UT's javaScript bootcamp and I am very enthusiastic about my future in software!</p>
+        </div>
     </div>
 
     <div class="project-section">
@@ -66,44 +78,49 @@
             <br>
             <h1>Projects Completed</h1>
             <!-- Project 1 -->
-            <a id="project-one" href="https://zackeryarsement.github.io/CodeQuiz_HW4/" target="_blank" class='container'>
-                <img id="horiseon-picture" src="./assets/images/codingQuizSnapshot.png" alt="Horiseon Web Application Link">
+            <a id="project-one" href="https://zackeryarsement.github.io/projectOne/" target="_blank" class='container'>
+                <img id="horiseon-picture" src="./assets/images/letsGetOuttaHere.png" alt="Let's Get Outta Here Img">
                 <div class="text-block">
-                    <h4>Coding Quiz</h4>
+                    <h4>Let's Get Outta Here!</h4>
                 </div>
             </a>
     
-    
             <!-- Project Links -->
             <div class="project-list">
-                <!-- Project 1 -->
+                <!-- Weather Dashboard -->
+                <a class="project container" href="https://zackeryarsement.github.io/weatherDashboard_HW6/" target="_blank">
+                    <img src="./assets/images/weatherForecast.png" alt="Weather Dashboard Img">
+                    <div class="text-block">
+                        <h4>Weather Dashboard</h4>
+                    </div>
+                    <div class="card-footer">
+                        <h4>adsfasdf</h4>
+                    </div>
+                </a>
+
+                <!-- Coding Quiz -->
+                <a class="project container" href="https://zackeryarsement.github.io/CodeQuiz_HW4/" target="_blank">
+                    <img src="./assets/images/codingQuizSnapshot.png" alt="Coding Quiz Img">
+                    <div class="text-block">
+                        <h4>Coding Quiz</h4>
+                    </div>
+                </a>
+                
+                <!-- Password Generator -->
+                <a class="project container" href="https://zackeryarsement.github.io/passwordGenerator_HW3/" target="_blank">
+                    <img src="./assets/images/03-javascript-homework-demo.png" alt="Password Generator Img">
+                    <div class="text-block">
+                        <h4>Password Generator</h4>
+                    </div>
+                </a>
+
+                <!-- Horiseon -->
                 <a class="project container" href="https://zackeryarsement.github.io/firstHomework/" target="_blank">
-                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Web Application Link">
+                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Web Application Img">
                     <div class="text-block">
                         <h4>Horiseon</h4>
                     </div>
                 </a>
-                <!-- Project 1 -->
-                <a class="project container" href="https://zackeryarsement.github.io/firstHomework/" target="_blank">
-                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Web Application Link">
-                    <div class="text-block">
-                        <h4>Horiseon</h4>
-                    </div>
-                </a>
-                <!-- Project 1 -->
-                <a class="project container" href="https://zackeryarsement.github.io/firstHomework/" target="_blank">
-                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Web Application Link">
-                    <div class="text-block">
-                        <h4>Horiseon</h4>
-                    </div>
-                </a>
-                <!-- Project 1 -->
-                <a class="project container" href="https://zackeryarsement.github.io/firstHomework/" target="_blank">
-                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="Horiseon Web Application Link">
-                    <div class="text-block">
-                        <h4>Horiseon</h4>
-                    </div>
-                </a>         
             </div>
         </div>
     </div>
@@ -111,7 +128,7 @@
     <section class="future-background">
         <div class="future-outlook">
             <h1 id="outlook-description">Future Outlook</h1>
-            <div class='card bg-dark w-75 m-auto p-3'>
+            <div class='card bg-secondary w-75 m-auto p-3'>
                 <div class='card-body'>
                     <p class='card-text p-0'>
                         Through learning html, css, javascript and javascript based programs I plan to propel myself into a future career of web development. I enjoy the design and problem solving aspects of coding, and there are very few things in life that are more satisfying than seeing your work implemented and put into effect in real time such as web development. Software is a constantly evolving industry and I enjoy knowing that I will always be learning in a software career. I hope to constantly grow in my javascript knowledge and add more coding languages and programs into my arsenal of knowledge.
@@ -138,6 +155,11 @@
     <a class="contact-box" href="https://github.com/ZackeryArsement" target="_blank">GitHub
         <div></div>
     </a>
+
+    <a class="contact-box" href="./assets/images/Resume.pdf" download="ZackArsementResume" target='_blank'>Resume
+        <div></div>
+    </a>
+
     <div class="contact-box">
         Email: zarsement@hotmail.com
     </div>
@@ -146,5 +168,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </html>

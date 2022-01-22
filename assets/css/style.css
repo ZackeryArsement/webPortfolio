@@ -10,6 +10,24 @@
     --lightRed: rgb(255, 0, 0);
 }
 
+#avatar-img{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("../images/portfolioJumbotron.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+  }
+
 body{
     background-color: black;
 }
@@ -21,19 +39,23 @@ body{
 /* Bottom right text */
 .text-block {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     right: 20px;
     background-color: black;
     opacity: 0.5;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+}
 
-  .text-block h4{
-      margin: auto;
-      font-size: 2rem;
-  }
+.text-block h4{
+    margin: auto;
+    font-size: 2rem;
+}
+
+.card-footer{
+    display: none;
+}
 
 /* Inner-Hexagon Icon */
 .hex-small:before {
@@ -136,6 +158,7 @@ p{
 .project{
     display: block;
     max-width: 40%;
+    /* max-height: ; */
     margin: 2.5% 5% 0 5%;
     text-align: center;
     flex: 1 0 40%;
@@ -186,7 +209,7 @@ footer a{
 }
 
 .contact-box{
-    max-width: 30%;
+    max-width: 20%;
     margin: 1.5%;
     flex: 0 0 300px;
     padding: 1rem;
@@ -201,6 +224,10 @@ footer a{
     border-color: var(--darkRed);
     box-shadow: 0 0 10px 10px var(--darkRed);
 
+}
+
+#about-me-body{
+    margin-top: 60vh;
 }
 
 .contact-box li{

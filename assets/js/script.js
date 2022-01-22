@@ -8,6 +8,14 @@ var projectNav = document.getElementsByClassName('project-nav');
 var futureNav = document.getElementsByClassName('future-nav');
 var contactNav = document.getElementsByClassName('contact-nav');
 
+// $(".jumbotron").css({ height: $(window).height() + "px" });
+
+// $(window).on("resize", function() {
+//   $(".jumbotron").css({ height: $(window).height() + "px" });
+// });
+
+// Jumbotron Resize: https://codepen.io/eversionsystems/pen/YOmqdj
+
 //Rotate About hex icon
 for(i=0; i < aboutNav.length; i++){
     (function(index){
