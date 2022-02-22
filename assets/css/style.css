@@ -269,6 +269,27 @@ footer a{
         max-width: 60%;
         margin: 5 20%;
     }
+
+    p{
+        line-height: 125%;
+        color: white;
+        margin: 0 0;
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 15px;
+        right: 20px;
+        background-color: black;
+        opacity: 0.5;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .text-block h4{
+        font-size: 1rem;
+    }
 }
 @media screen and (min-width: 1300px) {
     #profile-picture{
